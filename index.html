@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>To Do List</title>
+</head>
+
+<body>
+
+  <!-- HEADER START -->
+<header>
+  <div class="container-fluid text-center d-flex justify-content-center text-align-center">
+    <div class="row">
+      <!-- <i class="fa-solid fa-clipboard-list"></i> -->
+      <h1 class="p-2">To Do List</h1>
+    </div>
+  </div>
+</header>
+
+  <!-- HEADER END -->
+
+  <!-- INPUT START -->
+
+  <div class="container mt-5 mb-5 justify-content-center align-items-center">
+    <div class="row">
+      
+      <div class="col-lg-9 col-sm-12">
+        <input type="text" class="form-control" id="formInput" placeholder="What is your plan today?...">
+      </div>
+      
+      <div class="col-lg-3 d-flex justify-content-center mt-3 mt-lg-0">
+        <button type="submit" class="btn btn-success mx-3" id="addButton">Add</button>
+        <button type="submit" class="btn btn-primary justify-content-end" id="cleanButton">Clean</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- INPUT END -->
+
+  <!-- MAIN CONTENT START  -->
+
+  <div class="container" id="container">
+    <!-- CONTENT WILL COME TO THIS AREA -->
+  </div>
+
+  <!-- MAIN CONTENT END  -->
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" 
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
+  integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" 
+  crossorigin="anonymous"></script>
+</body>
+</html>
